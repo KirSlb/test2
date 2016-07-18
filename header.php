@@ -42,8 +42,16 @@
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="lead"><?php bloginfo( 'description' ); ?></p>
 				</div>
-				<div class="col-md-6">
-
+				<div class="col-md-4">
+					<div class="sitebar-text">
+						<b>922-122-02-30</b><br/>
+						<b>950-646-61-64</b>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="sitebar-text">
+						disp@srub72.ru
+					</div>
 				</div>
 
 			</div>
