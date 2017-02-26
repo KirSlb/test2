@@ -38,18 +38,18 @@
 				<?php } // end if ( ! empty( $header_image ) ) ?>
 
 
-				<div class="site-branding col-md-6">
+				<div class="site-branding col-md-4">
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="lead"><?php bloginfo( 'description' ); ?></p>
+					<p class="lead">Загородное строительство<br/>в Тюмени и пригороде<?php /* bloginfo( 'description' ); */?> </p>
 				</div>
-				<div class="col-md-4">
-					<div class="sitebar-text">
-						<b>922-122-02-30</b><br/>
-						<b>950-646-61-64</b>
+				<div class="phone col-md-6">
+					<div>
+						<div class="work-phone">+7 (922) 122 02 30</div>
+						<div class="work-time">работаем с 8<sup>00</sup> до 20<sup>00</sup></divcla>
 					</div>
 				</div>
 				<div class="col-md-2">
-					<div class="sitebar-text">
+					<div>
 						disp@srub72.ru
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 
 <nav class="site-navigation">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">

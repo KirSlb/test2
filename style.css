@@ -230,6 +230,7 @@ display: block;
 }
 .navbar-default .navbar-nav li a {
 	color: #ffffff;
+	font-size: 24px;
 }
 .navbar-default .navbar-nav>.active>a {
 	color: #ffffff;
@@ -242,7 +243,7 @@ display: block;
 	color: #ffffff;
 }
 .navbar-default {
-	background-color: #27AE60;
+	background-color: #007236;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -255,12 +256,50 @@ display: block;
 .sitebar-text {
 	display: block;
 	background-color: #2ECC71;
-	font-size: 25px;
+	font-size: 24px;
 }
 .site-info {
 	text-align: center;
 }
 
+.site-header-inner {
+	height: 72px;
+	color: #000000;
+}
+.site-branding {
+	margin-top: -24px;
+}
+.site-title a{
+	font-size: 48px;
+	font-family: Constantia, Arial ;
+	font-weight: bold;
+	color: #000000;
+}
+.site-title a:hover{
+	text-decoration: none;
+}
+.lead {
+	font-size: 12px;
+	/*font-family: "Roboto Condensed";*/
+	margin-top: -10px;
+}
+.phone{
+	text-align: center;
+}
+.work-phone{
+	font-size:32px;
+	font-weight: bold;
+}
+.work-time{
+	font-size:19px;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Constantia; /* имя шрифта для CSS правил */
+	src: local("Constantia"), /* проверяем наличие шрифта в ОС пользователя */
+	url(includes/fonts/constan.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+}
 /*
  == Quick CSS styling tips ==
 
@@ -305,3 +344,5 @@ display: block;
 */
 
 /* Hey, if you don't need my comments anymore, just delete me! :)  */
+
+
