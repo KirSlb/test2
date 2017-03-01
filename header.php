@@ -42,15 +42,15 @@
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?/*php echo esc_attr( get_bloginfo( 'name', 'display' ) );*/ ?>" rel="home">Srub72<?/*php bloginfo( 'name' );*/ ?></a></h1>
 					<p class="lead">Загородное строительство<br/>в Тюмени и пригороде<?php /* bloginfo( 'description' ); */?> </p>
 				</div>
-				<div class="phone col-md-6 col-sm-6">
-					<div>
+				<div class="col-md-6 col-sm-6">
+					<div class="phone-wrapper">
 						<div class="work-phone">+7 (922) 122 02 30</div>
 						<div class="work-time">работаем с 8<sup>00</sup> до 20<sup>00</sup></div>
 					</div>
 				</div>
 				<div class="col-md-2 col-sm-2">
 					<div>
-						<button class="btn btn-default" type="submit">Заказать звонок</button>
+						<button class="btn btn-default callback" type="submit">Заказать звонок</button>
 					</div>
 				</div>
 
