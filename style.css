@@ -217,6 +217,7 @@ body {
 	background-color:#f2f2f2;
 }
 
+
 .site-navigation {
 	margin-right: -15px;
 	margin-left: -15px;
@@ -225,13 +226,12 @@ body {
 	float: none;
 	text-align: center;
 	margin: 0 auto;
-
 }
-.navbar-nav li {
+#main-menu>li {
 	float: none;
 	display: inline-block;
-
 }
+
 .navbar-default .navbar-nav li a {
 	color: #ffffff;
 	font-size: 24px;
@@ -240,7 +240,6 @@ body {
 	color: #ffffff;
 	background-color: #2ECC71;
 	box-shadow: 0 10px 5px rgba(0,0,0,0.75);
-
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -248,10 +247,19 @@ body {
 	background-color: #04763A;
 	color: #ffffff;
 }
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+	background-color: #007236;
+	color: #ffffff;
+}
 .navbar-default {
 	border: none;
 	background-color: #007236;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+}
+.navbar{
+	border-radius: 0px;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -261,6 +269,25 @@ body {
 .navbar-header a {
 	display: none;
 }
+
+#main-menu .dropdown-menu{
+	background-color: #007236;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:focus,
+.dropdown-menu > .active > a:hover {
+	/*background-color: #05882d;*/
+	text-decoration: underline;
+	background-color: #007236;
+}
+.navbar-nav>.dropdown>.dropdown-menu>li>a:hover,
+.navbar-nav>.dropdown>.dropdown-menu>li>a:focus{
+	color:#555;
+	background-color: #007236;
+}
+
 .sitebar-text {
 	display: block;
 	background-color: #2ECC71;
@@ -274,7 +301,10 @@ body {
 	height: 72px;
 	color: #000000;
 }
+
 .site-branding {
+	margin:0;
+	padding: 0;
 	margin-top: -24px;
 }
 .site-title a{
@@ -289,7 +319,6 @@ body {
 }
 .lead {
 	font-size: 14px;
-	/*font-family: "Roboto Condensed";*/
 	margin-top: -10px;
 
 }
