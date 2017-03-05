@@ -62,7 +62,7 @@
 
 <nav class="site-navigation">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container-fluid ">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">

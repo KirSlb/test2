@@ -216,12 +216,20 @@ display: block;
 body {
 	background-color:#f2f2f2;
 }
-
-
+li {
+	list-style-type: none;
+}
+/*
 .site-navigation {
 	margin-right: -15px;
 	margin-left: -15px;
+
+}*/
+.site-navigation-inner{
+	margin: 0;
+	padding: 0;
 }
+
 .navbar-nav{
 	float: none;
 	text-align: center;
@@ -340,6 +348,15 @@ body {
 	margin-top: 24px;
 	box-shadow: 0 3px 4px rgba(0,0,0,0.25);
 	color:#000000;
+}
+
+/*.widget_mycategoryorder li{
+	list-style-type: none;
+}*/
+.widget_mycategoryorder ul{
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
 }
 
 @font-face {
