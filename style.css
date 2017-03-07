@@ -287,6 +287,7 @@ a.navbar-brand {
 	font-family: Constantia, Arial;
 	font-weight: bold;
 	font-size: 34px;
+	margin-top: -5px;
 }
 .navbar-default .navbar-toggle span.icon-bar{
 	background-color: #ffffff;
@@ -308,8 +309,10 @@ a.navbar-brand {
 
 
 #main-menu .dropdown-menu{
+	border: none;
 	background-color: #007236;
-	box-shadow: 0 5px 5px rgba(0,0,0,0.25);
+	margin-top: -1px;
+	/*box-shadow: 0 5px 5px rgba(0,0,0,0.25);*/
 }
 
 .dropdown-menu > .active > a,

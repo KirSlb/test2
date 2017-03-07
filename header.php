@@ -44,7 +44,7 @@
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="phone-wrapper">
-						<div class="work-phone">+7 (922) 122 02 30</div>
+						<div class="work-phone">8 (922) 122 02 30</div>
 						<div class="work-time">работаем с 8<sup>00</sup> до 20<sup>00</sup></div>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 
 						<div class="nav-callback">
 							<div class="phone">
-								+7 9221028452
+								8 9221028452
 							</div>
 							<button class="btn btn-default btn-nav" type="submit">Заказать <span id="zvon">звонок</span></button>
 						</div>
