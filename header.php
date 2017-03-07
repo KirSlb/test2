@@ -76,7 +76,17 @@
 						</button>
 
 						<!-- Your site title as branding in the menu -->
-						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php /*bloginfo( 'name' );*/ ?>Srub72</a>
+
+
+						<div class="nav-callback">
+							<div class="phone">
+								+7 9221028452
+							</div>
+							<button class="btn btn-default btn-nav" type="submit">Заказать <span id="zvon">звонок</span></button>
+						</div>
+
+
 					</div>
 
 					<!-- The WordPress Menu goes here -->
