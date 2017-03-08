@@ -26,7 +26,7 @@
 
 	<?php if ( is_search() || is_archive() ) : // Only display Excerpts for Search and Archive Pages ?>
 	<div class="entry-summary">
-		<?php the_excerpt(); ?>
+		<?php the_content/*the_excerpt*/(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
