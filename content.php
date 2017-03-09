@@ -13,9 +13,9 @@
 // Remember to do this for all content templates you want to have this,
 // for example content-single.php for the post single view. ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article  id="post-<?php the_ID(); ?>" <?php post_class("clearfix"); ?>>
 	<header>
-		<h1 class="page-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
+		<h2 class="page-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
@@ -26,7 +26,13 @@
 
 	<?php if ( is_search() || is_archive() ) : // Only display Excerpts for Search and Archive Pages ?>
 	<div class="entry-summary">
-		<?php the_content/*the_excerpt*/(); ?>
+		<?php the_content/*the_excerpt*/(__( 'Continue reading <span class="meta-nav">&rarr;</span>', '_tk' ) ); ?>
+		<?php
+		wp_link_pages( array(
+			'before' => '<div class="page-links">' . __( 'Pages:', '_tk' ),
+			'after'  => '</div>',
+		) );
+		?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
@@ -69,4 +75,5 @@
 
 		<?php edit_post_link( __( 'Edit', '_tk' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
+
 </article><!-- #post-## -->
