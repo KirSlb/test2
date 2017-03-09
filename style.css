@@ -393,6 +393,12 @@ a.navbar-brand {
 footer.entry-meta{
 	display: none;
 }
+.row-article {
+	margin-top: 1px;
+}
+.page-title a{
+
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {

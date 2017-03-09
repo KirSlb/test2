@@ -50,7 +50,7 @@
 				</div>
 				<div class="col-md-2 col-sm-2">
 					<div>
-						<button class="btn btn-default callback" type="submit">Заказать звонок</button>
+						<button class="btn btn-default callback eModal-1" type="submit">Заказать звонок</button>
 					</div>
 				</div>
 
@@ -83,7 +83,7 @@
 							<div class="phone">
 								8 9221028452
 							</div>
-							<button class="btn btn-default btn-nav" type="submit">Заказать <span id="zvon">звонок</span></button>
+							<button class="btn btn-default btn-nav eModal-1" type="submit">Заказать <span id="zvon">звонок</span></button>
 						</div>
 
 

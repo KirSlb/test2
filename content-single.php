@@ -9,7 +9,7 @@
 		<h1 class="page-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
-			<?php _tk_posted_on(); ?>
+			<?php /* _tk_posted_on(); */?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 

@@ -17,11 +17,11 @@
 	<header>
 		<h2 class="page-title"><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 
-		<?php if ( 'post' == get_post_type() ) : ?>
+		<?php /*if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
 			<?php _tk_posted_on(); ?>
 		</div><!-- .entry-meta -->
-		<?php endif; ?>
+		<?php endif;*/ ?>
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() || is_archive() ) : // Only display Excerpts for Search and Archive Pages ?>
