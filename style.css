@@ -399,6 +399,12 @@ footer.entry-meta{
 .page-title a{
 
 }
+.entry-content td{
+	/*border: #000000;
+	border-width: 1px;
+	border-style: solid;*/
+	padding: 5px;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {

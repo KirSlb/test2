@@ -26,7 +26,7 @@ get_header(); ?>
 				get_template_part( 'content', get_post_format() );
 			?>
 
-		<?php endwhile; ?>
+		<?php endwhile;  ?>
 
 		<?php _tk_content_nav( 'nav-below' ); ?>
 
