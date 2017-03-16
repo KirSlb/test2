@@ -405,6 +405,12 @@ footer.entry-meta{
 	border-style: solid;*/
 	padding: 5px;
 }
+.pictures a{
+	float: left;
+}
+.pictures_mini a{
+	/*margin: 0 0 0 8px;*/
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {

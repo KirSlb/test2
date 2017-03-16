@@ -39,7 +39,7 @@
 
 
 				<div class="site-branding col-md-4 col-sm-4">
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?/*php echo esc_attr( get_bloginfo( 'name', 'display' ) );*/ ?>" rel="home">Srub72<?/*php bloginfo( 'name' );*/ ?></a></h1>
+					<h2 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?/*php echo esc_attr( get_bloginfo( 'name', 'display' ) );*/ ?>" rel="home">Srub72<?/*php bloginfo( 'name' );*/ ?></a></h2>
 					<p class="lead">Загородное строительство<br/>в Тюмени и пригороде<?php /* bloginfo( 'description' ); */?> </p>
 				</div>
 				<div class="col-md-6 col-sm-5">
